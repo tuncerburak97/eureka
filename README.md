@@ -5,8 +5,7 @@ REST API modern yazılım dünyasında uygulamaların birbiri ile iletişim kurm
 
 Bir API ın REST API olabilmesi için ihtiyacı olan 3 şey vardır.
 
-
-![client server](client-server-architecture.png)
+![client-server-architecture](https://user-images.githubusercontent.com/33039466/144824504-54f0d4da-60df-4a39-a539-f0e2c6b03f69.png)
 
 1. Server : Söz konusu API'ı servis eden yazılım.
 2. Resource : Server tarafından API aracılığıyla servis edilen veri, bu text formatında bir kullanıcı bilgisi, bir dosya, bir fotoğraf yada bunlar gibi heerhangi bir veri olabilir. Burada önemli olan her resource'un unique bir idsi olması gerekir.
