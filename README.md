@@ -238,6 +238,10 @@ Diske yazılma işlemi default olarak asenkron olarak yapılabilir. Bunu değiş
 
 ![couchbaseCluster](https://user-images.githubusercontent.com/33039466/144828604-4f97b207-8639-4a8d-947e-6394b7cb88ff.PNG)
 
+### Spring Cloud — Netflix Eureka
 
+Spring Cloud Netflix Eureka, servislerin makina adı ve bağlantı noktasına ihtiyaç olmaksızın birbirleriyle iletişim kurmasını sağlar. Bu mimarideki tek önemli nokta, her servisin kayıt olması gereken bir servis olmasıdır.
+Netflix Eureka ile tüm bağlı clientların listesini alınır ve load balancing algoritması ile servislere istekler dağıtılır. Bunun için her servis ayağa kalktığında eureka servera bir heartbeat sinyal gönderir ve kayıt olur.
 
+![eureka-diagram](https://user-images.githubusercontent.com/33039466/144829312-0a609d42-436e-4b83-8a78-0fc7e1bcc377.png)
 
