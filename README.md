@@ -1,11 +1,9 @@
-# eureka
-microservice-nosql-eureka
+# Microservice-Nosql-Eureka-Spring Boot
 ### Rest API nedir ?
 
 REST API modern yazılım dünyasında uygulamaların birbiri ile iletişim kurmak için kullandıkları dildir. Daha teknik bir tanım yapmak gerekir ise, REST mimarisini kullanarak uygulamalar arası veri transferini mümkün kılan web service'lere REST API denir.
 
 Bir API ın REST API olabilmesi için ihtiyacı olan 3 şey vardır.
-
 
 
 ![client server](client-server-architecture.png)
