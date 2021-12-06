@@ -51,9 +51,7 @@ Bunların yanında Spring Boot bize prod ortamına deploy etmeye hazır bir tak�
 
 Spring MVC, Spring frameworkun bir parçası olan DispatcherServlet etrafında MVC patternini uygulayan modüldür. DispatcherServlet uygulamaya gelen tüm requestleeri yakalar ve geerekli çözümlemeyi yaptıktan sonra requesti uygun handlera iletir. Request handler @Controller ve @RequestMapping anotasyonlarını kullanarak gelen requestlerden kendisine uygun olanı işleyen sınıf ve metodlardan oluşan yapıdır.
 
-![mvc](mvc.png)
-
-
+![mvc](https://user-images.githubusercontent.com/33039466/144824671-65b424de-7481-4608-99aa-574f30711f70.png)
 
 ### Spring MVC anotasyonları
 
