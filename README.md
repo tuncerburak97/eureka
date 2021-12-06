@@ -192,7 +192,7 @@ Couchbase’deki veriler **Bucket** adı verilen mantıksal yapılarda saklanır
 - **Memcached Bucket:** Verileri yalnızca belleğe yazar.
 - **Ephemeral Bucket:** Verileri geçici olarak bellekte tutar.
 
-![alldb](alldb.png)
+![alldb](https://user-images.githubusercontent.com/33039466/144824981-9446d3a1-8ab2-4cd0-b913-336a705dce3e.png)
 
 Couchbase’in temel özelliklerinden bahsetmek gerekirse;
 
