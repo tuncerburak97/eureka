@@ -206,7 +206,7 @@ Couchbase’in temel özelliklerinden bahsetmek gerekirse;
 - Geçiçi dokümanlar oluşturmak için TTL (Time-to-Live) özelliği vardır. Örnek vermek gerekirse; geçerliliği belirli bir süre olacak şekilde sms veya şifre sıfırlama linki vb.
 - Replication desteği mevcuttur. (Replication veritabanlarında yük arttığı zaman uygulanır.)
 
-![clusterarch](clusterarch.png)
+![clusterarch](https://user-images.githubusercontent.com/33039466/144824860-2383edd8-4106-4189-825c-c0146331fca7.png)
 
 Yukarıdaki resimde de görüldüğü gibi Couchbase’in her biri farklı node’larda yer alan 6 servisi vardır. Farklı node’larda yer almasının sebebi, kaynak kullanımını arttırmak ve iş yükünü dengelemektir. Kısaca, bu servislerden bahsetmek gerekirse;
 
