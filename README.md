@@ -216,3 +216,28 @@ Yukarıdaki resimde de görüldüğü gibi Couchbase’in her biri farklı node�
 - **Search Service:** Full Text Search için özel olarak dizin oluşturmak için kullanılır.
 - **Analytics Service:** Cpu ve memory gibi kaynak kullanımını yükseltecek Join, Set, Aggregation ve Group operasyonlarını desteklemek için kullanılır.
 - **Eventing Service:** Trigger veya rapor oluşturmada kullanılan servistir.
+
+
+- Asenkron mimari;
+
+![couchbase-async](https://user-images.githubusercontent.com/33039466/144828320-cce78d1a-d254-47c6-937e-9e7461993378.PNG)
+
+- CROSS DATA CENTER REPLICATION
+
+ İki farklı couchbase clusterında istersek çift yönlü istersek tek yönlü dataları birbirine sink edebiliriz. Hem yazma okuma işlemleri için kullanılabilir.
+ Hem yedeklilik hem bağımsız lokasyondaki dataları birbirine eşitlemek ve farklı lokasyonlarda hem yazma hem okuma yapabiliriz.
+
+![XDCR](https://user-images.githubusercontent.com/33039466/144828499-f38dc576-4db9-4a3d-8316-75812a90d6d9.PNG)
+
+
+vBucketler, her bucket için her zaman 1024 adet olur.vBucketler clusterdaki nodelar içinde dağıtık olarak tutulurlar. ACID Transactionı destekler. Rollback yapılabilir.
+
+![vBucket](https://user-images.githubusercontent.com/33039466/144828553-eb3de3fb-7293-4fcc-b5d8-d089df8e4f20.PNG)
+
+Diske yazılma işlemi default olarak asenkron olarak yapılabilir. Bunu değiştirebiliriz
+
+![couchbaseCluster](https://user-images.githubusercontent.com/33039466/144828604-4f97b207-8639-4a8d-947e-6394b7cb88ff.PNG)
+
+
+
+
